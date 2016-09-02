@@ -28,5 +28,9 @@ var config = {
       path.join(__dirname, 'node_modules'),
     ],
   },
+  devServer: {
+    historyApiFallback: true,
+    contentBase: './'
+  }
 };
 module.exports = config;
