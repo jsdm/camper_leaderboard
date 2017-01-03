@@ -1,12 +1,12 @@
-const autoprefixer = require('autoprefixer')
+const autoprefixer = require('autoprefixer');
 var path = require('path');
-const ExtractTextPlugin = require('extract-text-webpack-plugin')
+const ExtractTextPlugin = require('extract-text-webpack-plugin');
 
 const sassLoaders = [
   'css-loader',
   'postcss-loader',
   'sass-loader?indentedSyntax=sass&includePaths[]=' + path.resolve(__dirname, './src')
-]
+];
  
 var config = {
   context: path.join(__dirname, 'src'),

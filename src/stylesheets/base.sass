@@ -1,20 +1,51 @@
-@import 'header'
-@import 'list'
 @import url(https://fonts.googleapis.com/css?family=Indie+Flower)
-
-$chalk-img: 'http://howtonestforless.com/wp-content/uploads/2013/01/Chalkboard-background.jpg'
 $chalk-font: 'indie flower', sans-serif
 $chalk-font-color: #FFF
-
 body
-    font-family: $chalk-font
-    color: $chalk-font-color
-    
+  color: $chalk-font-color
+  font-family: $chalk-font
 
-.container-fluid
-    background-image: url($chalk-img)
-    background-size: 100% 100%
-    min-height: 600px
-    max-width: 600px
-    border-radius: 15px
+img 
+  width: 40px
+  border-radius: 50%
 
+.chalk 
+  font-family: $chalk-font
+  color: $chalk-font-color
+
+
+.board
+  border-radius: 15px
+  min-height: 600px
+  max-width: 600px
+  margin: auto
+  background-color: #4d4e4f
+
+hr 
+  border: none
+  width: 80%
+  height: 2px
+  background-color: $chalk-font-color
+  margin-top: 0px
+
+tr 
+  color: $chalk-font-color
+  font-size: 20px
+  &:hover 
+    background: transparent !important
+  
+
+.header 
+  padding-top: 10px
+  text-align: center
+
+a 
+  color: inherit
+  &:hover 
+    color:inherit
+  
+  &:visited 
+    color: inherit
+
+.pointer 
+  cursor: pointer

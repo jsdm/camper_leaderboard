@@ -1,37 +1,43 @@
-@import url(https://fonts.googleapis.com/css?family=Indie+Flower);hr {
-  border: none;
-  width: 80%;
-  height: 3px;
-  color: #FFF;
-  background-color: #FFF;
-  margin-top: 0px; }
-
-.header {
-  font-family: "indie flower", sans-serif;
-  color: #FFF;
-  text-align: center; }
-
-.listItem {
-  color: #FFF;
-  font-family: "indie flower", sans-serif;
-  font-size: 2em;
-  list-type: none; }
-
-table {
+@import url(https://fonts.googleapis.com/css?family=Indie+Flower);body {
   color: #FFF;
   font-family: "indie flower", sans-serif; }
 
-.table-borderless tbody tr td, .table-borderless tbody tr th, .table-borderless thead tr th {
-  border: none;
-  text-align: center; }
+img {
+  width: 40px;
+  border-radius: 50%; }
 
-body {
+.chalk {
   font-family: "indie flower", sans-serif;
   color: #FFF; }
 
-.container-fluid {
-  background-image: url("http://howtonestforless.com/wp-content/uploads/2013/01/Chalkboard-background.jpg");
-  background-size: 100% 100%;
+.board {
+  border-radius: 15px;
   min-height: 600px;
   max-width: 600px;
-  border-radius: 15px; }
+  margin: auto;
+  background-color: #4d4e4f; }
+
+hr {
+  border: none;
+  width: 80%;
+  height: 2px;
+  background-color: #FFF;
+  margin-top: 0px; }
+
+tr {
+  color: #FFF;
+  font-size: 20px; }
+  tr:hover {
+    background: transparent !important; }
+
+.header {
+  padding-top: 10px;
+  text-align: center; }
+
+a {
+  color: inherit; }
+  a:visited {
+    color: inherit; }
+
+.pointer {
+  cursor: pointer; }
